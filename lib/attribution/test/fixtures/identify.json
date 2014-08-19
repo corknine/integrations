@@ -1,0 +1,23 @@
+{
+  "input": {
+    "userId": "user-id",
+    "type": "identify",
+    "timestamp": "2014",
+    "traits": {
+      "firstName": "John",
+      "lastName": "Doe",
+      "list": [1, 2, 3],
+      "object": "{}"
+    }
+  },
+  "output": {
+    "user_id": "user-id",
+    "traits": {
+      "id": "user-id",
+      "firstName": "John",
+      "lastName": "Doe",
+      "list": [1, 2, 3],
+      "object": "{}"
+    }
+  }
+}
