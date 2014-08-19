@@ -1,0 +1,25 @@
+{
+  "input": {
+    "type": "track",
+    "userId": "user-id",
+    "event": "some event",
+    "timestamp": "2014",
+    "properties": {
+      "revenue": 19.99,
+      "some-property": true,
+      "list": [1, 2, 3],
+      "object": {}
+    }
+  },
+  "output": {
+    "userId": "user-id",
+    "event": "some event",
+    "timestamp": "2014-01-01T00:00:00.000Z",
+    "properties": {
+      "revenue": 19.99,
+      "some-property": true,
+      "list": [1, 2, 3],
+      "object": {}
+    }
+  }
+}
