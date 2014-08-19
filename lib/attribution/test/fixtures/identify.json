@@ -4,6 +4,7 @@
     "type": "identify",
     "timestamp": "2014",
     "traits": {
+      "time": "2014-10-12",
       "firstName": "John",
       "lastName": "Doe",
       "list": [1, 2, 3],
@@ -13,6 +14,7 @@
   "output": {
     "user_id": "user-id",
     "traits": {
+      "time": "2014-10-12T00:00:00.000Z",
       "id": "user-id",
       "firstName": "John",
       "lastName": "Doe",
